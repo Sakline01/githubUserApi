@@ -1,0 +1,32 @@
+.App{
+  text-align: center;
+  padding-top: 10px;
+  margin:20px auto 0px;
+  font-size: 20px;
+  background: rgb(142, 199, 86);
+}
+.App>div{
+  width: 90%;
+  margin: auto;
+}
+.App>div>div:nth-child(2){
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  flex-wrap: wrap;
+}
+input{
+  height: 30px;
+  width: 250px;
+  border: darkblue solid 3px;
+  border-radius: 7px;
+}
+input:focus{
+  outline: none !important;
+}
+button{
+  height: 30px;
+  width: 60px;
+  margin-left: 10px;
+  margin-top: 10px;
+}
